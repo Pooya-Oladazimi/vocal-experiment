@@ -1,0 +1,87 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-color: gainsboro;
+    min-height: 100%;
+}
+.container{
+    background-color: ghostwhite;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 100vh;
+}
+#header{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(183,255,240,0.65);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.record{
+    margin-top: 30px;
+    padding: 40px;
+    width: 200px;
+    background-color: chartreuse;
+}
+
+.next-div{
+    margin-top: 50px;
+}
+.next-bt{
+    margin-top: 60px;
+    background-color: skyblue;
+}
+dialog{
+    width: 400px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#explain-text, .part, .pBar, #finish-btn, #last-part, #submit-btn{
+    display: none;
+}
+.check-sign{
+    margin-top: 30px;
+    visibility: hidden;
+}
+
+.input-field{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#start{
+    background-color: skyblue;
+    width: 200px;
+}
+
+#study-field{
+    width: 400px;
+}
+.start-btn-row{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.fa-microphone{
+    font-size: 50px;
+}
+
+#mic-in-text{
+    font-size: 20px;
+}
+
+.fa-check{
+    font-size: 100px;
+    color: green;
+}
+
+.w3-green{
+    width:0;
+}
+
