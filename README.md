@@ -6,6 +6,8 @@ This is a web application for voice-to-text user experiments. First, users answe
 ### Usage
 Clone the project in the web folder. Then, you access it with: http://localhost/vocalExperiment/load.php
 
+**Note:**  the form for sending the data to the server is in the body.php
+
 Currently **Compatible with Chrome**
 
 ### How to use
